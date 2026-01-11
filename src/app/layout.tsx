@@ -13,25 +13,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fade Factory - Always Fresh | Premium Barber Shop in Stoney Creek",
-  description: "Experience the freshest cuts and premium barber services at Fade Factory. Located in Stoney Creek, Ontario. Expert barbers, modern techniques, classic craftsmanship. Book your appointment today!",
-  keywords: "barber, haircut, fade, stoney creek, ontario, premium cuts, fresh styles, barbershop",
-  authors: [{ name: "Fade Factory" }],
+  title: "FadeFactory | Premium Barbershop in Stoney Creek",
+  description: "Experience premium haircuts and grooming at FadeFactory. Expert barbers specializing in fades, beard trims, and hot towel shaves. Book your appointment today.",
+  keywords: ["barbershop", "haircuts", "fades", "beard trim", "Stoney Creek", "Hamilton", "mens grooming"],
   openGraph: {
-    title: "Fade Factory - Always Fresh",
-    description: "Premium barber shop in Stoney Creek, Ontario. Always Fresh cuts and styles.",
-    type: "website",
+    title: "FadeFactory | Premium Barbershop",
+    description: "Where style meets precision. Premium cuts and styles in Stoney Creek.",
+    url: "https://fadefactory.ca",
+    siteName: "FadeFactory",
     locale: "en_CA",
-    siteName: "Fade Factory",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Fade Factory - Always Fresh",
-    description: "Premium barber shop in Stoney Creek, Ontario.",
-  },
-  robots: {
-    index: true,
-    follow: true,
+    type: "website",
   },
 };
 
@@ -41,9 +32,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white selection:bg-blue-500/30 selection:text-blue-200`}
       >
         {children}
       </body>
