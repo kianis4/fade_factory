@@ -42,7 +42,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-gray-400">
               <li>570 Highway 8, Unit 3</li>
               <li>Stoney Creek, Ontario</li>
-              <li>(289) 656-0504</li>
+              <li>+1 (289) 656-0504</li>
               <li>fadefactory905@gmail.com</li>
             </ul>
           </div>
@@ -50,9 +50,10 @@ export function Footer() {
           <div>
             <h3 className="font-bold text-white mb-4">Hours</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>Mon - Fri: 10am - 8pm</li>
-              <li>Saturday: 9am - 6pm</li>
-              <li>Sunday: 11am - 5pm</li>
+              <li>Monday: Closed</li>
+              <li>Tue - Wed: 10am - 7pm</li>
+              <li>Thu - Fri: 10am - 8pm</li>
+              <li>Sat - Sun: 10am - 5pm</li>
             </ul>
           </div>
         </div>

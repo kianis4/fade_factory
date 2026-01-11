@@ -31,7 +31,7 @@ export function Contact() {
                     <Phone className="w-6 h-6 text-blue-500" />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-2">Phone</h3>
-                <p className="text-gray-400 text-sm">Call us at 289 656 0504</p>
+                <p className="text-gray-400 text-sm">Call us at +1 (289) 656-0504</p>
             </motion.div>
 
             {/* Email Card */}
