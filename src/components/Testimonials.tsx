@@ -6,19 +6,19 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     quote: "Fade Future Barbershop is amazing! I went there for a haircut, and the barbers were very friendly and professional. The place is clean, the vibe is great, and they really take their time to make sure you look perfect.",
-    author: "Adam Saddik",
+    author: "Adam",
     role: "Google Review",
     initials: "AS"
   },
   {
     quote: "Been coming here for a while now, place is nice and clean and always welcoming. All the barbers are great. Overall my number 1 place to go for a cut, guys are always willing to talk and banter about whatever.",
-    author: "Trevor Philips",
+    author: "Trevor",
     role: "Google Review",
     initials: "TP"
   },
   {
     quote: "So much talent, 100% recommend, this is our new place for sure, both my kids (7&10) lived the vibe, the haircuts, and the barbers. Won't be going anywhere else.",
-    author: "Shenanigans Kay",
+    author: "Shenanigans",
     role: "Local Guide",
     initials: "SK"
   }
