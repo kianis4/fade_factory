@@ -5,40 +5,28 @@ import { Scissors, Zap, Award, Sparkles, User, Clock } from "lucide-react";
 
 const services = [
   {
-    icon: Scissors,
-    title: "Classic Haircut",
-    description: "Traditional haircut with clippers and scissors, includes hot towel and styling.",
-    price: "$25",
+    icon: Sparkles,
+    title: "Haircut and Beard",
+    description: "Haircut and beard electric (45min). Complete grooming experience.",
+    price: "$50.00",
   },
   {
-    icon: Zap,
-    title: "Fade",
-    description: "Precision fade haircut with detailed edges and styling for a sharp look.",
-    price: "$30",
+    icon: Scissors,
+    title: "Haircut Only",
+    description: "Precision haircut styled to perfection (30min).",
+    price: "$40.00",
   },
   {
     icon: User,
-    title: "Beard Trim",
-    description: "Shape and trim your beard with precision tools and hot towel finish.",
-    price: "$15",
+    title: "Kids Haircut",
+    description: "Gentle service for children 12 and under (30min).",
+    price: "$35.00",
   },
   {
-    icon: Sparkles,
-    title: "Haircut & Beard",
-    description: "Complete package with haircut and beard trim for a fresh, cohesive look.",
-    price: "$40",
-  },
-  {
-    icon: Award,
-    title: "Hot Towel Shave",
-    description: "Traditional straight razor shave with rejuvenating hot towel treatment.",
-    price: "$35",
-  },
-  {
-    icon: Clock,
-    title: "Kid's Haircut",
-    description: "Haircut for children under 12 years old. Gentle and patient service.",
-    price: "$20",
+    icon: Zap,
+    title: "Line up Hair & Beard",
+    description: "Sharp line up for a clean, crisp look (30min).",
+    price: "$30.00",
   },
 ];
 
