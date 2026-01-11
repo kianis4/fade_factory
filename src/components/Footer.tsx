@@ -60,7 +60,11 @@ export function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-gray-500">
-            © {new Date().getFullYear()} Fade Factory. All rights reserved.
+            © {new Date().getFullYear()} Fade Factory. All rights reserved. 
+            <span className="mx-2">|</span>
+            <a href="https://skompxcel.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors">
+              Powered by SKompXcel
+            </a>
           </p>
           <div className="flex items-center gap-6">
             <a href="https://www.instagram.com/fadefactory905/" className="text-gray-400 hover:text-blue-500 transition-colors"><Instagram className="w-5 h-5" /></a>

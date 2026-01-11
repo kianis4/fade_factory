@@ -8,29 +8,39 @@ import Image from "next/image";
 
 const portfolioItems = [
   {
-    image: "/Work/Sample 1.jpg",
-    title: "Fade Factory Special",
-    category: "Precision Fade"
+    image: "/Work/IMG_6003.jpg",
+    title: "High Bald Fade",
+    category: "Precision Cut"
   },
   {
-    image: "/Work/Sample 2.jpg",
-    title: "Fade Factory Special",
-    category: "Sharp Lines"
+    image: "/Work/IMG_3163.jpg",
+    title: "Wave Cut",
+    category: "Texture & Style"
   },
   {
-    image: "/Work/Sample 3.jpg",
-    title: "Fade Factory Special",
-    category: "Classic Style"
+    image: "/Work/Tapered Mullet.jpg",
+    title: "Tapered Mullet",
+    category: "Modern Classic"
   },
   {
-    image: "/Work/Sample 4.jpg",
-    title: "Fade Factory Special",
-    category: "Modern Cut"
+    image: "/Work/Bald Fade Comb Over.jpg",
+    title: "Bald Fade Comb Over",
+    category: "Sharp & Clean"
   },
   {
-    image: "/Work/Sample 5.jpg",
-    title: "Fade Factory Special",
-    category: "Complete Look"
+    image: "/Work/Kids Design Cut.jpg",
+    title: "Kids Design Cut",
+    category: "Creative Style"
+  },
+  {
+    image: "/Work/Burst Fade.jpg",
+    title: "Burst Fade",
+    category: "Trendy Look"
+  },
+  {
+    image: "/Work/Low Taper Fade.jpg",
+    title: "Low Taper Fade",
+    category: "Clean & Sharp"
   }
 ];
 
