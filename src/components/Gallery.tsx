@@ -9,7 +9,7 @@ import Image from "next/image";
 const portfolioItems = [
   {
     image: "/Work/IMG_6003.jpg",
-    title: "High Bald Fade",
+    title: "Beard Fade",
     category: "Precision Cut"
   },
   {
