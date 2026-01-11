@@ -47,13 +47,14 @@ export function About() {
             viewport={{ once: true }}
             className="relative"
           >
-            <div className="aspect-video bg-gray-100 rounded-2xl shadow-2xl relative overflow-hidden group">
-              {/* Placeholder for video/image */}
-              <div className="absolute inset-0 flex items-center justify-center bg-gray-200 group-hover:bg-gray-300 transition-colors">
-                 <div className="w-20 h-20 rounded-full border-4 border-blue-900/20 flex items-center justify-center">
-                    <div className="w-0 h-0 border-t-[10px] border-t-transparent border-l-[20px] border-l-blue-900/40 border-b-[10px] border-b-transparent ml-1" />
-                 </div>
-              </div>
+            <div className="aspect-video bg-black rounded-2xl shadow-2xl relative overflow-hidden group border border-white/10">
+              <video 
+                src="/Videos/FADE-FACTORY-DEC.mov"
+                className="w-full h-full object-cover"
+                controls
+                playsInline
+                poster="/logo.png"
+              />
             </div>
             {/* Decorative element behind */}
             <div className="absolute -z-10 -bottom-6 -right-6 w-full h-full bg-blue-950/50 rounded-2xl" />

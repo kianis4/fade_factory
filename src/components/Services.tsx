@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Scissors, Zap, Sparkles, User } from "lucide-react";
+import { Scissors, Zap, Sparkles, User, Award, Car } from "lucide-react";
 
 const services = [
   {
@@ -27,6 +27,18 @@ const services = [
     title: "Line up Hair & Beard",
     description: "Sharp line up for a clean, crisp look (30min).",
     price: "$30.00",
+  },
+  {
+    icon: Award,
+    title: "Haircut and Beard + Straight Razor",
+    description: "Premium cut with beard trim and hot towel straight razor finish.",
+    price: "$60.00",
+  },
+  {
+    icon: Car,
+    title: "House Call",
+    description: "Premium service at your location. Contact for availability.",
+    price: "Per Request",
   },
 ];
 

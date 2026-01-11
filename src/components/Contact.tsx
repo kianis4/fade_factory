@@ -62,6 +62,7 @@ export function Contact() {
                 </div>
                 <h3 className="text-xl font-bold text-white mb-2">Location</h3>
                 <p className="text-gray-400 text-sm">570 Highway #8 Unit 3, Hamilton, Ontario</p>
+                <p className="text-blue-500/80 text-xs mt-2 font-medium">(Corner of Envoy Blvd and Highway 8)</p>
             </motion.div>
         </div>
 

@@ -31,6 +31,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-gray-400">
               <li><Link href="#services" className="hover:text-blue-500 transition-colors">Services</Link></li>
               <li><Link href="#about" className="hover:text-blue-500 transition-colors">About Us</Link></li>
+              <li><Link href="#team" className="hover:text-blue-500 transition-colors">Barbers</Link></li>
               <li><Link href="#gallery" className="hover:text-blue-500 transition-colors">Gallery</Link></li>
               <li><a href="https://fadefactory905.booksy.com/a" className="hover:text-blue-500 transition-colors">Book Now</a></li>
             </ul>
