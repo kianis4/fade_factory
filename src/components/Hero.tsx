@@ -1,22 +1,25 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background Gradient & Pattern */}
+      {/* Background Image & Overlay */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-radial from-blue-900/20 via-black to-black" />
-        <div 
-          className="absolute inset-0 opacity-[0.03]" 
-          style={{
-            backgroundImage: `linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)`,
-            backgroundSize: '50px 50px'
-          }}
+        <Image
+          src="/Shop/Shop_bg.jpg"
+          alt="Fade Factory Shop"
+          fill
+          className="object-cover"
+          priority
         />
+        <div className="absolute inset-0 bg-black/80" /> {/* Heavy overlay for text readability */}
+        
         {/* Glow effect */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-blue-600/20 blur-[120px] rounded-full" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-blue-600/20 blur-[120px] rounded-full mix-blend-screen" />
       </div>
 
       <div className="container-custom relative z-10 text-center">
