@@ -46,7 +46,7 @@ export function Contact() {
                     <Mail className="w-6 h-6 text-blue-500" />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-2">Email</h3>
-                <p className="text-gray-400 text-sm">Email us at info@fadefactory.ca</p>
+                <p className="text-gray-400 text-sm">fadefactory905@gmail.com</p>
             </motion.div>
 
             {/* Location Card */}

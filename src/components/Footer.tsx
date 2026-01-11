@@ -42,7 +42,7 @@ export function Footer() {
               <li>570 Highway 8, Unit 3</li>
               <li>Stoney Creek, Ontario</li>
               <li>(289) 656-0504</li>
-              <li>info@fadefactory.com</li>
+              <li>fadefactory905@gmail.com</li>
             </ul>
           </div>
 

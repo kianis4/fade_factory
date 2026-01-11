@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Scissors, Zap, Award, Sparkles, User, Clock } from "lucide-react";
+import { Scissors, Zap, Sparkles, User } from "lucide-react";
 
 const services = [
   {
