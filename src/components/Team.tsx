@@ -4,9 +4,15 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const team = [
+    {
+    name: "Yoshi",
+    role: "Professional Barber",
+    image: "/Barbers/Yousuf.jpeg",
+    instagram: "fadefactory905"
+  },
   {
     name: "Nik",
-    role: "Master Barber",
+    role: "Proffesional Barber",
     image: "/Barbers/Nick.jpeg",
     instagram: "fadefactory905" 
   },
@@ -14,12 +20,6 @@ const team = [
     name: "Fou",
     role: "Professional Barber",
     image: "/Barbers/Farnood.jpeg",
-    instagram: "fadefactory905"
-  },
-  {
-    name: "Yoshi",
-    role: "Professional Barber",
-    image: "/Barbers/Yousuf.jpeg",
     instagram: "fadefactory905"
   }
 ];
