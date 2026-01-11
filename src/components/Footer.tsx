@@ -1,5 +1,6 @@
-import { Scissors, Instagram } from "lucide-react";
+import { Instagram } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -8,8 +9,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-                <Scissors className="w-4 h-4 text-white" />
+              <div className="relative w-10 h-10 rounded-full overflow-hidden border border-white/10">
+                <Image 
+                  src="/logo.png" 
+                  alt="Fade Factory Logo" 
+                  fill
+                  className="object-cover"
+                />
               </div>
               <span className="text-xl font-bold tracking-tight text-white">
                 FadeFactory

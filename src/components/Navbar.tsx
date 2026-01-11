@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Scissors, Sun } from "lucide-react";
+import { Menu, X, Sun } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
@@ -37,8 +38,13 @@ export function Navbar() {
       <div className="container-custom flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center group-hover:bg-blue-500 transition-colors">
-            <Scissors className="w-5 h-5 text-white" />
+          <div className="relative w-10 h-10 rounded-full overflow-hidden border border-white/10 group-hover:border-blue-500 transition-colors">
+            <Image 
+              src="/logo.png" 
+              alt="Fade Factory Logo" 
+              fill
+              className="object-cover"
+            />
           </div>
           <span className="text-xl font-bold font-sans tracking-tight">
             FadeFactory
