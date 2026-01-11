@@ -41,6 +41,26 @@ const portfolioItems = [
     image: "/Work/Low Taper Fade.jpg",
     title: "Low Taper Fade",
     category: "Clean & Sharp"
+  },
+  {
+    image: "/Work/Mid Taper Fade.jpg",
+    title: "Mid Taper Fade",
+    category: "Classic Look"
+  },
+  {
+    image: "/Work/High Taper.jpg",
+    title: "High Taper",
+    category: "Modern Style"
+  },
+  {
+    image: "/Work/Mullet.jpg",
+    title: "Mullet",
+    category: "Edgy Style"
+  },
+  {
+    image: "/Work/Mid Bald Fade.jpg",
+    title: "Mid Bald Fade",
+    category: "Precision Fade"
   }
 ];
 
