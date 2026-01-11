@@ -5,22 +5,22 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "Best haircut I&apos;ve ever had. The attention to detail is incredible and the atmosphere is great.",
-    author: "John Smith",
-    role: "Regular Customer",
-    initials: "JS"
+    quote: "Fade Future Barbershop is amazing! I went there for a haircut, and the barbers were very friendly and professional. The place is clean, the vibe is great, and they really take their time to make sure you look perfect.",
+    author: "Adam Saddik",
+    role: "Google Review",
+    initials: "AS"
   },
   {
-    quote: "Professional service from start to finish. I've been coming here for a year and they never disappoint.",
-    author: "Mike Johnson",
-    role: "Loyal Client",
-    initials: "MJ"
+    quote: "Been coming here for a while now, place is nice and clean and always welcoming. All the barbers are great. Overall my number 1 place to go for a cut, guys are always willing to talk and banter about whatever.",
+    author: "Trevor Philips",
+    role: "Google Review",
+    initials: "TP"
   },
   {
-    quote: "Finally found a barber who understands exactly what I want. Highly recommended for anyone looking for a fresh fade.",
-    author: "David Wilson",
-    role: "New Customer",
-    initials: "DW"
+    quote: "So much talent, 100% recommend, this is our new place for sure, both my kids (7&10) lived the vibe, the haircuts, and the barbers. Won't be going anywhere else.",
+    author: "Shenanigans Kay",
+    role: "Local Guide",
+    initials: "SK"
   }
 ];
 
